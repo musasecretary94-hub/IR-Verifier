@@ -1,0 +1,24 @@
+{
+  "header": { "state_code": "29", "lga_code": "20", "ra_code": "02", "pu_code": "003", "serial_no": "0000001" },
+  "counts": {
+    "registered":  { "v": 800, "l": "clear" },
+    "accredited":  { "v": 500, "l": "clear" },
+    "issued":      { "v": 800, "l": "clear" },
+    "unused":      { "v": 300, "l": "clear" },
+    "spoiled":     { "v": "-02-", "l": "clear" },
+    "rejected":    { "v": 8, "l": "clear" },
+    "valid_total": { "v": 490, "l": "clear" },
+    "used_total":  { "v": 500, "l": "clear" }
+  },
+  "parties": [
+    { "party": "A", "figures": "-200-", "words": "TWO HUNDRED", "l": "clear" },
+    { "party": "B", "figures": 150, "words": "ONE HUNDRED AND FIFTY", "l": "clear" },
+    { "party": "C", "figures": 90, "words": "NINETY", "l": "clear" },
+    { "party": "D", "figures": 30, "words": "THIRTY", "l": "clear" },
+    { "party": "E", "figures": "-10-", "words": "TEN", "l": "clear" },
+    { "party": "F", "figures": 5, "words": "FIVE", "l": "clear" },
+    { "party": "G", "figures": 5, "words": "FIVE", "l": "clear" }
+  ],
+  "total_valid_row": { "figures": 490, "words": "FOUR HUNDRED AND NINETY", "l": "clear" },
+  "image_quality": "ok"
+}

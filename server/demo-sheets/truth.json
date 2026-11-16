@@ -1,0 +1,362 @@
+[
+ {
+  "file": "sheet-KN-01-01-001.png",
+  "polling_unit": "KN-01-01-001",
+  "plan": "clean",
+  "serial_no": "1000001",
+  "counts": {
+   "registered": 557,
+   "accredited": 358,
+   "issued": 557,
+   "unused": 199,
+   "spoiled": 1,
+   "rejected": 6,
+   "validTotal": 351,
+   "usedTotal": 358
+  },
+  "parties": [
+   {
+    "party": "PA",
+    "figures": 14,
+    "words": "fourteen"
+   },
+   {
+    "party": "PB",
+    "figures": 107,
+    "words": "one hundred and seven"
+   },
+   {
+    "party": "PC",
+    "figures": 97,
+    "words": "ninety seven"
+   },
+   {
+    "party": "PD",
+    "figures": 37,
+    "words": "thirty seven"
+   },
+   {
+    "party": "PE",
+    "figures": 12,
+    "words": "twelve"
+   },
+   {
+    "party": "PF",
+    "figures": 39,
+    "words": "thirty nine"
+   },
+   {
+    "party": "PG",
+    "figures": 29,
+    "words": "twenty nine"
+   },
+   {
+    "party": "PH",
+    "figures": 16,
+    "words": "sixteen"
+   }
+  ],
+  "total_valid_row": 351,
+  "total_valid_row_words": "three hundred and fifty one"
+ },
+ {
+  "file": "sheet-KN-02-01-001.png",
+  "polling_unit": "KN-02-01-001",
+  "plan": "clean",
+  "serial_no": "1000013",
+  "counts": {
+   "registered": 681,
+   "accredited": 344,
+   "issued": 681,
+   "unused": 337,
+   "spoiled": 2,
+   "rejected": 6,
+   "validTotal": 336,
+   "usedTotal": 344
+  },
+  "parties": [
+   {
+    "party": "PA",
+    "figures": 28,
+    "words": "twenty eight"
+   },
+   {
+    "party": "PB",
+    "figures": 27,
+    "words": "twenty seven"
+   },
+   {
+    "party": "PC",
+    "figures": 102,
+    "words": "one hundred and two"
+   },
+   {
+    "party": "PD",
+    "figures": 8,
+    "words": "eight"
+   },
+   {
+    "party": "PE",
+    "figures": 80,
+    "words": "eighty"
+   },
+   {
+    "party": "PF",
+    "figures": 5,
+    "words": "five"
+   },
+   {
+    "party": "PG",
+    "figures": 10,
+    "words": "ten"
+   },
+   {
+    "party": "PH",
+    "figures": 76,
+    "words": "seventy six"
+   }
+  ],
+  "total_valid_row": 336,
+  "total_valid_row_words": "three hundred and thirty six"
+ },
+ {
+  "file": "sheet-LA-01-01-001.png",
+  "polling_unit": "LA-01-01-001",
+  "plan": "clean",
+  "serial_no": "1000025",
+  "counts": {
+   "registered": 425,
+   "accredited": 293,
+   "issued": 425,
+   "unused": 132,
+   "spoiled": 3,
+   "rejected": 3,
+   "validTotal": 287,
+   "usedTotal": 293
+  },
+  "parties": [
+   {
+    "party": "PA",
+    "figures": 67,
+    "words": "sixty seven"
+   },
+   {
+    "party": "PB",
+    "figures": 39,
+    "words": "thirty nine"
+   },
+   {
+    "party": "PC",
+    "figures": 62,
+    "words": "sixty two"
+   },
+   {
+    "party": "PD",
+    "figures": 52,
+    "words": "fifty two"
+   },
+   {
+    "party": "PE",
+    "figures": 3,
+    "words": "three"
+   },
+   {
+    "party": "PF",
+    "figures": 35,
+    "words": "thirty five"
+   },
+   {
+    "party": "PG",
+    "figures": 6,
+    "words": "six"
+   },
+   {
+    "party": "PH",
+    "figures": 23,
+    "words": "twenty three"
+   }
+  ],
+  "total_valid_row": 287,
+  "total_valid_row_words": "two hundred and eighty seven"
+ },
+ {
+  "file": "sheet-LA-02-01-001.png",
+  "polling_unit": "LA-02-01-001",
+  "plan": "words_mismatch",
+  "serial_no": "1000037",
+  "counts": {
+   "registered": 549,
+   "accredited": 259,
+   "issued": 549,
+   "unused": 290,
+   "spoiled": 1,
+   "rejected": 2,
+   "validTotal": 256,
+   "usedTotal": 259
+  },
+  "parties": [
+   {
+    "party": "PA",
+    "figures": 16,
+    "words": "sixteen"
+   },
+   {
+    "party": "PB",
+    "figures": 63,
+    "words": "seventy three"
+   },
+   {
+    "party": "PC",
+    "figures": 14,
+    "words": "fourteen"
+   },
+   {
+    "party": "PD",
+    "figures": 35,
+    "words": "thirty five"
+   },
+   {
+    "party": "PE",
+    "figures": 51,
+    "words": "fifty one"
+   },
+   {
+    "party": "PF",
+    "figures": 21,
+    "words": "twenty one"
+   },
+   {
+    "party": "PG",
+    "figures": 37,
+    "words": "thirty seven"
+   },
+   {
+    "party": "PH",
+    "figures": 19,
+    "words": "nineteen"
+   }
+  ],
+  "total_valid_row": 256,
+  "total_valid_row_words": "two hundred and fifty six"
+ },
+ {
+  "file": "sheet-OY-01-01-001.png",
+  "polling_unit": "OY-01-01-001",
+  "plan": "total_mismatch",
+  "serial_no": "1000049",
+  "counts": {
+   "registered": 673,
+   "accredited": 319,
+   "issued": 673,
+   "unused": 354,
+   "spoiled": 2,
+   "rejected": 7,
+   "validTotal": 310,
+   "usedTotal": 319
+  },
+  "parties": [
+   {
+    "party": "PA",
+    "figures": 96,
+    "words": "ninety six"
+   },
+   {
+    "party": "PB",
+    "figures": 24,
+    "words": "twenty four"
+   },
+   {
+    "party": "PC",
+    "figures": 50,
+    "words": "fifty"
+   },
+   {
+    "party": "PD",
+    "figures": 7,
+    "words": "seven"
+   },
+   {
+    "party": "PE",
+    "figures": 5,
+    "words": "five"
+   },
+   {
+    "party": "PF",
+    "figures": 28,
+    "words": "twenty eight"
+   },
+   {
+    "party": "PG",
+    "figures": 91,
+    "words": "ninety one"
+   },
+   {
+    "party": "PH",
+    "figures": 9,
+    "words": "nine"
+   }
+  ],
+  "total_valid_row": 320,
+  "total_valid_row_words": "three hundred and twenty"
+ },
+ {
+  "file": "sheet-OY-02-01-001.png",
+  "polling_unit": "OY-02-01-001",
+  "plan": "blurry",
+  "serial_no": "1000061",
+  "counts": {
+   "registered": 797,
+   "accredited": 472,
+   "issued": 797,
+   "unused": 325,
+   "spoiled": 3,
+   "rejected": 7,
+   "validTotal": 462,
+   "usedTotal": 472
+  },
+  "parties": [
+   {
+    "party": "PA",
+    "figures": 48,
+    "words": "forty eight"
+   },
+   {
+    "party": "PB",
+    "figures": 90,
+    "words": "ninety"
+   },
+   {
+    "party": "PC",
+    "figures": 72,
+    "words": "seventy two"
+   },
+   {
+    "party": "PD",
+    "figures": 27,
+    "words": "twenty seven"
+   },
+   {
+    "party": "PE",
+    "figures": 51,
+    "words": "fifty one"
+   },
+   {
+    "party": "PF",
+    "figures": 57,
+    "words": "fifty seven"
+   },
+   {
+    "party": "PG",
+    "figures": 14,
+    "words": "fourteen"
+   },
+   {
+    "party": "PH",
+    "figures": 103,
+    "words": "one hundred and three"
+   }
+  ],
+  "total_valid_row": 462,
+  "total_valid_row_words": "four hundred and sixty two"
+ }
+]

@@ -1,0 +1,23 @@
+{
+  "name": "ir-verifier-server",
+  "version": "2.0.0",
+  "private": true,
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/index.js",
+    "seed": "node --disable-warning=ExperimentalWarning scripts/seed.js",
+    "seed:demo": "node --disable-warning=ExperimentalWarning scripts/seed-demo.js",
+    "create-user": "node --disable-warning=ExperimentalWarning scripts/create-user.js",
+    "test": "node --disable-warning=ExperimentalWarning --test",
+    "reset-results": "node --disable-warning=ExperimentalWarning scripts/reset-results.js",
+    "create-agents": "node --disable-warning=ExperimentalWarning scripts/create-agents.js",
+    "export-registry": "node --disable-warning=ExperimentalWarning scripts/export-registry.js",
+    "import-registry": "node --disable-warning=ExperimentalWarning scripts/import-registry.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

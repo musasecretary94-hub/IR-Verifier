@@ -1,0 +1,41 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.netlify/
+
+# Databases
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+
+# Uploaded files and private data
+server/uploads/*
+!server/uploads/.gitkeep
+server/backups/
+server/private/
+*-credentials*.csv
+
+# Local backups and duplicate project copies
+server-backup-before-fix2/
+*.zip
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+.DS_Store
+
+# Local registry and test CSV files
+server/test-registry*.csv
+server/units-registered.csv
+
+# Backup package lock
+client/package-lock.backup.json
