@@ -18,6 +18,8 @@
     "import-registry": "node --disable-warning=ExperimentalWarning scripts/import-registry.js"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "@supabase/supabase-js": "^2.119.0",
+    "express": "^5.1.0",
+    "pg": "^8.23.1"
   }
 }

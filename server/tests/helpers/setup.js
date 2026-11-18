@@ -13,7 +13,7 @@ const PASSWORD = 'correct-horse-battery';
 
 function makeCtx(overrides = {}, configOverrides = {}) {
   const uploadDir = fs.mkdtempSync(path.join(os.tmpdir(), 'irv-'));
-  const config = load({ dbPath: ':memory:', uploadDir, tokenSecret: 'test-secret-test-secret-test-secret', demoMode: true, ...configOverrides });
+  const config = load({ dbPath: ':memory:', uploadDir, tokenSecret: 'test-secret-test-secret-test-secret', demoMode: true, ...configOverrides, dbDriver: 'sqlite' });
   const db = openDb(':memory:');
   seedRegistry(db);
   const ctx = createContext(config, { db, ...overrides });

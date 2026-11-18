@@ -15,15 +15,23 @@ function num(value, fallback) {
 }
 
 function load(overrides = {}) {
+  const dbDriver = (process.env.DB_DRIVER || 'sqlite').toLowerCase();
+
+  if (!['sqlite', 'postgres'].includes(dbDriver)) {
+    throw new Error('DB_DRIVER must be either sqlite or postgres');
+  }
+
   const demoMode = process.env.DEMO_MODE !== 'false';
   let tokenSecret = process.env.TOKEN_SECRET;
   if (!tokenSecret) {
     if (!demoMode) throw new Error('TOKEN_SECRET must be set when DEMO_MODE=false');
     tokenSecret = crypto.randomBytes(32).toString('hex'); // logins stop working after a restart
   }
-  return {
+  const config = {
     port: num(process.env.PORT, 3001),
     dbPath: process.env.DB_PATH || path.join(root, 'data', 'verifier.db'),
+    databaseUrl: process.env.DATABASE_URL || '',
+    dbDriver,
     uploadDir: process.env.UPLOAD_DIR || path.join(root, 'uploads'),
     tokenSecret,
     tokenSecretWasGenerated: !process.env.TOKEN_SECRET,
@@ -31,6 +39,9 @@ function load(overrides = {}) {
     maxImageMb: num(process.env.MAX_IMAGE_MB, 6),
     demoMode,
     corsOrigins: (process.env.CORS_ORIGINS || 'http://localhost:5173').split(',').map((s) => s.trim()).filter(Boolean),
+    supabaseUrl: process.env.SUPABASE_URL || '',
+    supabaseServiceRoleKey: process.env.SUPABASE_SERVICE_ROLE_KEY || '',
+    supabaseStorageBucket: process.env.SUPABASE_STORAGE_BUCKET || 'ir-verifier-photos',
     ai: {
       provider: (process.env.AI_PROVIDER || '').toLowerCase(),
       apiKey: process.env.AI_API_KEY || '',
@@ -38,6 +49,13 @@ function load(overrides = {}) {
     },
     ...overrides,
   };
+
+  if (!['sqlite', 'postgres'].includes(config.dbDriver)) {
+    throw new Error('DB_DRIVER must be either sqlite or postgres');
+  }
+
+  config.dbDriver = config.dbDriver.toLowerCase();
+  return config;
 }
 
 module.exports = { load };

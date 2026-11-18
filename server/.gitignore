@@ -7,3 +7,4 @@ uploads/*
 credentials.local.txt
 *.local.txt
 *.local.csv*
+src/config/*.backup

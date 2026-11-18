@@ -118,7 +118,7 @@ function SubmissionForm({ token, config, lang, unit, onDone, onUnauthorized }) {
     <div className="agent-grid">
       <div className="card photo-col">
         <h3>{L(lang, '1. Photo of the result sheet (EC8A)', '1. Hoton fom ɗin sakamako (EC8A)')}</h3>
-        <input type="file" accept="image/jpeg,image/png,image/webp" capture="environment" onChange={onFile} />
+        <input type="file" accept="image/jpeg,image/png,image/webp" onChange={onFile} />
         {busy === 'photo' && <p className="muted">…</p>}
         {image && <img className="sheet-photo" src={image} alt="sheet" />}
         {image && config.aiAvailable && (
